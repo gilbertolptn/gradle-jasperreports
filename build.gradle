@@ -22,9 +22,8 @@ repositories {
 dependencies {
 	implementation gradleApi()
 	implementation localGroovy()
-	implementation 'net.sf.jasperreports:jasperreports:6.10.0'
+	implementation 'net.sf.jasperreports:jasperreports:6.13.0'
 	implementation 'org.codehaus.gpars:gpars:1.2.1'
-	testImplementation 'junit:junit:4.12'
 }
 
 // Use java-gradle-plugin to generate plugin descriptors and specify plugin ids
